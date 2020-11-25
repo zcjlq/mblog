@@ -264,9 +264,6 @@
 		<!--开发默认环境-->
 		<profile>
 			<id>dev</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
 			<properties>
 				<profileActive>dev</profileActive>
 			</properties>
@@ -275,6 +272,9 @@
 		<!--H2环境-->
 		<profile>
 			<id>h2</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<properties>
 				<profileActive>h2</profileActive>
 			</properties>

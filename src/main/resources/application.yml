@@ -7,6 +7,9 @@ server:
         buffer-size: 1024
         directBuffers: true
 spring:
+    output:
+        ansi:
+            enabled: always
     profiles:
         active: @profileActive@
     devtools:
