@@ -34,7 +34,7 @@ spring:
         cache: false
         check-template-location: true
         request-context-attribute: request
-        charset: utf-8
+        charset: UTF-8
         suffix: .ftl
         settings:
             classic_compatible: true #处理空值
@@ -43,6 +43,7 @@ spring:
             datetime_format: yyyy-MM-dd HH:mm
             number_format: 0.##
             auto_import: /utils.ftl as utils
+            defaultEncoding: UTF-8
     flyway:
         enabled: false
         baseline-on-migrate: true
